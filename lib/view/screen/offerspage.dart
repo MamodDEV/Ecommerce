@@ -3,7 +3,6 @@ import 'package:ecommerce/controller/offerscontroller.dart';
 import 'package:ecommerce/core/class/handlingdataview.dart';
 import 'package:ecommerce/core/constant/routes.dart';
 import 'package:ecommerce/view/screen/home.dart';
-import 'package:ecommerce/view/widget/customappbar.dart';
 import 'package:ecommerce/view/widget/home/customappbar.dart';
 import 'package:ecommerce/view/widget/offer/customlistoffer.dart';
 import 'package:flutter/material.dart';
