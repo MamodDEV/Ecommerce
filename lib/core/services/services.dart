@@ -5,11 +5,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class MyServices extends GetxService {
   late SharedPreferences sharedPreferences;
+  String apiKey = const String.fromEnvironment('API_KEY');
 
   Future<MyServices> init() async {
     await Firebase.initializeApp(
-        options: const FirebaseOptions(
-            apiKey: 'AIzaSyBDlM9YUKfkn5CBPAfvAmSovhykAZovo-8',
+        options: FirebaseOptions(
+            apiKey: apiKey,
             appId: '1:489821312509:android:a72cd618a0fb16a849b594',
             messagingSenderId: '489821312509',
             projectId: 'ecommerce-9e9aa'));
