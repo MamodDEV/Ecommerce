@@ -1,6 +1,6 @@
 # Ecommerce
 
-Flutter Ecommerca APP with an Admin and Driver Apps , using PHP restful API
+Flutter Ecommerce APP with an Admin and Driver Apps , using PHP restful API
 
 ## Getting Started
 
