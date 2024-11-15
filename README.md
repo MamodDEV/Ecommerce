@@ -1,6 +1,6 @@
-# ecommerce
+# Ecommerce
 
-A new Flutter project.
+Flutter Ecommerca APP with an Admin and Driver Apps , using PHP restful API
 
 ## Getting Started
 
